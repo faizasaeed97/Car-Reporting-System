@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            string="Repair report"
+            id="action_report_repair"
+            model="repair.modules"
+            report_type="qweb-html"
+            name="car_customization.report_repair"
+            file="car_customization.report_repair"
+        />
+
+    </data>
+</odoo>

@@ -1,0 +1,70 @@
+<odoo>
+    <data>
+
+        <template id="report_repair">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+
+                        <div class="page">
+                            <table class="table table-sm" style="page-break-inside: avoid;">
+                                <tr>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2" t-if="o.service" name="Service Type"
+                                             color="#17a2b8">
+                                            <strong>Employee Name:</strong>
+<!--                                            <span t-field="o.service"/>-->
+                                        </div>
+                                    </td>
+                                    <td>
+
+                                        <div class="col-auto mw-100 mb-2" t-if="o.part_no" name="Part No"
+                                             color="#17a2b8">
+                                            <strong>Manager Name:</strong>
+<!--                                            <span t-field="o.part_no"/>-->
+                                        </div>
+                                    </td>
+                                    <td>
+
+                                        <div class="col-auto mw-100 mb-2" t-if="o.customer_name" name="Customer Name"
+                                             color="#17a2b8">
+                                            <strong>Date:</strong>
+<!--                                            <span t-field="o.customer_name"/>-->
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+
+                            <table class="table table-sm" style="page-break-inside: avoid;">
+                                <thead>
+                                    <tr>
+                                        <!-- TODO: remove in master -->
+                                        <t t-set="colspan" t-value="6"/>
+                                        <th name="th_part_no" class="center">
+                                            <span>S.NO. :</span>
+                                        </th>
+                                        <!-- TODO: remove in master -->
+                                        <th name="th_customer_name" class="center">
+                                            <span>User</span>
+                                        </th>
+                                        <th name="th_mileage" class="center">
+                                            <span>Log Date:</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                            </table>
+
+
+                        </div>
+                    </t>
+                </t>
+            </t>
+
+        </template>
+
+    </data>
+
+
+</odoo>

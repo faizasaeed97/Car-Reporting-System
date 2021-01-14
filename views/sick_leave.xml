@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="action_report_sick_attendance"
+                model="car.modules"
+                string="Sick Leave"
+                report_type="qweb-html"
+                name="car_customization.sick_attendance"
+                file="car_customization.sick_attendance"
+
+        />
+
+        <template id="sick_attendance">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Design Creative W.L.L</strong>
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <h1>Sick Leave and Absences Analysis Report</h1>
+                            <h2> Date Between 25/07/2020 and 26/08/2020, Exclude Temporary= Yes</h2>
+                        </div>
+
+                        <div class="page">
+
+                            <table class="table table-sm" style="page-break-inside: avoid;">
+                                <tr>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Roll #</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Employee Name</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Nationality</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Div</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Total</strong>
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+
+                            </table>
+
+
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

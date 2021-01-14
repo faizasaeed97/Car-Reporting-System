@@ -1,0 +1,266 @@
+<odoo>
+    <data>
+
+        <template id="report_car">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+
+                        <div class="page">
+
+
+                            <style>
+                                  table, th, td {
+                                  border: 1px solid black; }
+                            </style>
+                            <table style="height: 22px; width: 100%">
+  <tbody>
+  	<tr style="height: 23px;">
+<th style="width: 10%; text-align: center; height: 23px;">Cheque Requisition For Payment</th>
+</tr>
+
+</tbody>
+</table>
+<table style="height: 22px; width: 100%">
+  <tbody>
+  	<tr style="height: 23px;">
+  		<td></td>
+
+</tr>
+  </tbody>
+</table>
+<table style="height: 220px; width: 100%; " >
+  <tbody>
+  	<tr >
+  		<td>
+  			<p style = "text-align: left">
+  			<span>Date: </span><br> </br>
+  			<span>LPO/Ref.No. </span><br> </br>
+  			<span>Description</span><br> </br>
+  			<span>In the total amount of in word</span><br> </br>
+</p>
+  		<p style = "text-align: center;">
+  			<span>Customer Address: </span><br> </br>
+  			<span>Customer Contact: </span><br> </br>
+  			<span>(Qatar Riyal): </span><br> </br>
+
+</p>
+  		</td>
+
+</tr>
+                        </tbody>
+                        </table>
+
+<table style="height: 150px; width: 100%;">
+<tbody>
+
+		<tr style="height: 30px; width:50%; ; text-align: center">
+
+			<td style="width: 250px" >
+				<strong>Account Name </strong>
+
+		    </td>
+		    	<td style="width: 375px">
+		    		<strong>Fund Name</strong>
+
+		    </td>
+		    <td style="width: 260px">
+		    	<strong>Project/Site </strong>
+
+		    </td>
+		    <td style="width: 360px">
+		    	<strong>Description </strong>
+
+		    </td>
+		     <td style="width: 360px">
+		     	<strong>LPO Value </strong>
+
+		    </td>
+		     <td style="width: 360px">
+		     	<strong>Amount (QAR) </strong>
+
+		    </td>
+        </tr>
+		<tr style="height: 120px; width=50%;">
+
+			<td style="width: 250px" >
+
+		    </td>
+		    	<td style="width: 375px">
+
+		    </td>
+		    <td style="width: 260px">
+
+		    </td>
+		    <td style="width: 360px">
+
+		    </td>
+		     <td style="width: 360px">
+
+		    </td>
+		     <td style="width: 360px">
+
+		    </td>
+    </tr>
+    </tbody>
+                    </table>
+		    <table style="height: 60px"   width="100%">
+			<tbody>
+		<tr  style="text-align: right;">
+			<td style="width: 1080px" >
+				<strong>Total QAR</strong>
+
+
+
+
+
+		    </td>
+		     <td style="width: 180px" >
+		     	QAR 0.00
+
+		    </td>
+		</tr>
+	</tbody>
+</table>
+		    <table style="height: 200px; width: 100%;">
+		    	<tbody>
+		    		<tr>
+		    			<td>
+		    				<div>
+		    					<style>
+		    						td {
+		    							vertical-align: bottom;
+		    						}
+		    					</style>
+
+		    				<table align="right">
+		    				<tbody>
+		    					<tr>
+		    						<td style="height: 120px; width: 200px" >
+
+		    						</td>
+		    					</tr>
+		    				</tbody>
+		    			</table>
+		    		</div>
+
+
+		    			</td>
+
+
+		    		</tr>
+
+
+
+		    	</tbody>
+		    </table>
+
+
+
+
+
+
+
+
+<br></br>
+
+<table style="height: 150px; width: 100%;">
+	<tbody>
+
+
+
+
+
+
+		    <tr style="height: 15px; width:50%; ; text-align: center">
+
+			<td style="width: 250px" >
+				<strong> Requested By </strong>
+
+		    </td>
+		    	<td style="width: 375px">
+		    		<strong>Procurement Manager</strong>
+
+		    </td>
+		    <td style="width: 260px">
+		    	<strong>Material Received By </strong>
+
+		    </td>
+		    <td style="width: 360px">
+		    	<strong> Request For Payment</strong>
+
+		    </td>
+
+
+		    </tr>
+		    <tr style="width: 500px">
+
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    </tr>
+		    <tr style="width: 500px; height: 30px">
+
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    	<td>
+		    		<strong>
+
+		    		</strong>
+		    	</td>
+		    </tr>
+		</tbody>
+	</table>
+
+	<table style="width: 100%; height: 100px;">
+
+		<tr>
+
+			<td align="center">
+				<strong>
+					Abdulla Albaker<br></br>
+				Managing Director </strong>
+			</td>
+		</tr>
+	</table>
+                            <strong>Mandatory Instructions:</strong>
+        </div>
+    </t>
+</t>
+        </t>
+        </template>
+        </data>
+ </odoo>
+
+
+

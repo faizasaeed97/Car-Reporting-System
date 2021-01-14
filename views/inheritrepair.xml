@@ -1,0 +1,13 @@
+<odoo>
+
+    <template id="inherit_repair_report_template" inherit_id="account.report_invoice_document">
+        <xpath expr="//div[@id='informations']" position="inside">
+            <div class="col-auto mw-100 mb-2" t-if="o.repair" name="repair">
+                            <strong>Repair</strong>
+                            <p class="m-0" t-field="o.repair"/>
+                        </div>
+        </xpath>
+
+
+    </template>
+</odoo>

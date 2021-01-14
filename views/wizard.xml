@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="create_car_wizard" model="ir.ui.view">
+        <field name="name">carrepair.modules.wizard</field>
+        <field name="model">carrepair.modules</field>
+        <field name="arch" type="xml">
+            <form string="Repair Orders">
+                <group>
+                    <field name="repair_details"/>
+                    <field name="date_of_repair"/>
+                    <field name="car_select"/>
+                    <footer>
+                        <button name="createtorder" string="Add" type="object" class="btn-primary"/>
+                        <button string="Cancel" type="object" class="btn-secondary" special="cancel"/>
+
+                    </footer>
+                </group>
+            </form>
+        </field>
+    </record>
+
+<!--    <record id="car_wizard_form" model="ir.actions.act_window">-->
+<!--        <field name="name">Car Details</field>-->
+<!--        <field name="type">ir.actions.act_window</field>-->
+<!--        <field name="res_model">carrepair.modules</field>-->
+<!--        <field name="view_mode">form</field>-->
+<!--        <field name="view_id" ref="create_car_wizard"/>-->
+<!--        <field name="target">new</field>-->
+<!--    </record>-->
+
+</odoo>

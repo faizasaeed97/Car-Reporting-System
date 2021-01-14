@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            string="Car report"
+            id="action_report_car"
+            model="car.modules"
+            report_type="qweb-pdf"
+            name="car_customization.report_car"
+            file="car_customization.report_car"
+        />
+
+    </data>
+</odoo>

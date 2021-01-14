@@ -1,0 +1,368 @@
+<odoo>
+    <data>
+
+        <template id="report_car">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+
+                        <div class="page">
+
+	<style>
+                                  table, th, td {
+                                  border: 1px solid black; }
+                            </style>
+
+                            <table style="height: 22px; width=50%;" >
+
+  <tbody>
+
+<tr style="height: 23px;">
+<th style="width: 10%; text-align: center; height: 23px;">Purchase Order</th>
+</tr>
+<!--<tr style="height: 23px;">-->
+<!--<td style="height: 23px;">&nbsp;</td>-->
+<!--</tr>-->
+</tbody>
+</table>
+<table  style= "width=50%; height: 200px; text-align:left; ">
+<tbody>
+<tr style="width: 150%;" >
+<td style="width: 625px;" >Supplier:</td>
+<td >
+   <p>Date
+   	<br></br>Supplier Ref.
+       <br> </br>PO number:    ABT/PO/20/000
+       <br> </br>Project:
+
+   </p>
+
+</td>
+</tr>
+<table style="height: 50px; width=50%;" >
+	<tbody>
+		<tr style="text-align: center;">
+
+			<td style="width: 250px" >
+		<strong> Shipping Method</strong>
+		    </td>
+		    	<td style="width: 375px">
+		<strong> Shipping terms</strong>
+		    </td>
+		    <td style="width: 260px">
+		<strong> Required delievery date </strong>
+		    </td>
+		    <td style="width: 360px">
+		<strong> Payment Terms</strong>
+		    </td>
+
+		 </tr>
+
+
+	</tbody>
+</table>
+
+<table style="height: 150px; width=50%;">
+	<tbody>
+		<tr>
+
+			<td style="width: 250px" >
+
+		    </td>
+		    	<td style="width: 375px">
+
+		    </td>
+		    <td style="width: 260px">
+
+		    </td>
+		    <td style="width: 360px">
+
+		    </td>
+
+
+
+		</tr>
+
+	</tbody>
+</table>
+<table style="height: 50px; width=50%;">
+	<tbody>
+		<tr  style="text-align: center;">
+			<td style="width: 110px" >
+				SI No.
+
+		    </td>
+		    <td style="width: 132px" >
+		    	PART No.
+
+		    </td>
+		    <td style="width: 388px" >
+		    	Description of materials
+
+		    </td>
+		    <td style="width: 115px" >
+		    	QTY
+
+		    </td>
+		     <td style="width: 145px" >
+		     	UOM
+
+		    </td>
+		     <td style="width: 180px" >
+		     	Rate/Unit
+
+		    </td>
+		     <td style="width: 180px" >
+		     	Amount ( QAR )
+
+		    </td>
+		</tr>
+
+	</tbody>
+</table>
+
+<table style="height: 50px; width=50%;">
+	<tbody>
+		<tr  style="text-align: center;">
+			<td style="width: 110px" >
+
+
+		    </td>
+		    <td style="width: 132px" >
+
+		    </td>
+		    <td style="width: 388px" >
+
+
+		    </td>
+		    <td style="width: 115px" >
+
+
+		    </td>
+		     <td style="width: 145px" >
+
+
+		    </td>
+		     <td style="width: 180px" >
+
+
+		    </td>
+		     <td style="width: 180px" >
+		     	QAR 0.00
+
+		    </td>
+		</tr>
+
+	</tbody>
+</table>
+<table style="height: 50px; width=50%;">
+	<tbody>
+		<tr  style="text-align: center;">
+			<td style="width: 110px" >
+
+
+		    </td>
+		    <td style="width: 132px" >
+
+		    </td>
+		    <td style="width: 388px" >
+
+
+		    </td>
+		    <td style="width: 115px" >
+
+
+		    </td>
+		     <td style="width: 145px" >
+
+
+		    </td>
+		     <td style="width: 180px" >
+
+
+		    </td>
+		     <td style="width: 180px" >
+		     	QAR 0.00
+
+		    </td>
+		</tr>
+
+	</tbody>
+</table>
+<table style="height: 50px; width=50%;">
+	<tbody>
+		<tr  style="text-align: center;">
+			<td style="width: 110px" >
+
+
+		    </td>
+		    <td style="width: 132px" >
+
+		    </td>
+		    <td style="width: 388px" >
+
+
+		    </td>
+		    <td style="width: 115px" >
+
+
+		    </td>
+		     <td style="width: 145px" >
+
+
+		    </td>
+		     <td style="width: 180px" >
+
+
+		    </td>
+		     <td style="width: 180px" >
+		     	QAR 0.00
+
+		    </td>
+		</tr>
+
+		<table style="height: 60px;  width=50%;">
+			<tbody>
+		<tr  style="text-align: right;">
+			<td style="width: 1080px" >
+				<strong>Total QAR</strong>
+
+
+
+
+
+		    </td>
+		     <td style="width: 180px" >
+		     	QAR 0.00
+
+		    </td>
+		</tr>
+	</tbody>
+</table>
+
+<table style="height: 60px; width=50%;">
+			<tbody>
+		<tr  style="text-align: right;">
+			<td style="width: 180px" >
+				<strong>Amount in Words</strong>
+
+
+
+
+
+		    </td>
+		     <td style="width: 1080px" >
+
+
+		    </td>
+		</tr>
+	</tbody>
+</table>
+<table style="height: 60px; width=50%;">
+			<tbody>
+		<tr  style="text-align: center;">
+			<td style="width: 630px" >
+				<strong>Remarks:</strong>
+
+
+
+
+
+		    </td>
+		     <td style="width: 630px" >
+		     	<strong>Deliver to:</strong>
+
+
+		    </td>
+		</tr>
+	</tbody>
+</table>
+<table style="height: 80px; width=50%;">
+			<tbody>
+		<tr  style="text-align: center;">
+			<td style="width: 630px" >
+
+
+
+
+
+
+		    </td>
+		     <td style="width: 630px" >
+
+
+
+		    </td>
+		</tr>
+            </tbody>
+</table>
+	</tbody>
+</table>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+             <table style="height: 80px; width=50%;">
+			<tbody>
+		<tr>
+			<td style="width: 420px" >
+				<p style="text-align: center">
+				<span>Checked By</span><br></br>
+				<span>_____________</span><br></br>
+				<span>Purchase Manager</span>
+
+			</p>
+		</td>
+		<td style="width: 420px">
+			<p style="text-align: center">
+				<span>Confirmed By</span><br></br>
+				<span>_______________</span><br></br>
+				<span>General Manager</span>
+
+			</p>
+		</td>
+		<td style="width: 420px">
+			<p style="text-align: center">
+				<span>Approved By</span><br></br>
+				<span>_____________</span><br></br>
+				<strong>Abdullah Albaker</strong><br></br>
+				<span> Managing Director</span>
+
+			</p>
+
+
+
+
+
+
+		    </td>
+
+		</tr>
+	</tbody>
+</table>
+                        </div>
+                    </t>
+                </t>
+            </t>
+                        </template>
+
+
+
+
+
+
+
+
+                        </data>
+
+
+
+                    </odoo>
+
+

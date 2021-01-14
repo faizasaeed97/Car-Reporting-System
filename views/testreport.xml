@@ -1,0 +1,283 @@
+<odoo>
+    <data>
+
+        <template id="report_car">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+
+                        <div class="page">
+                            <p style="text-align:center;">
+                                <h2>
+                                    <strong>Cheque Requisition For Payment</strong>
+
+                                </h2>
+
+
+                            </p>
+                            <table class="table table-sm" style="page-break-inside: avoid;">
+                            <table class="table table-sm" style="page-break-inside: avoid;">
+                            <p style="text-align:left;">
+                                <span>Date</span>
+                                <br>
+
+                                </br>
+                                <span>LPO / Ref.No:</span>
+                                <br>
+
+                                </br>
+                                <span>Description:</span>
+                                <br>
+
+                                </br>
+                                <span>In the total amount of in word:</span>
+
+                            </p>
+                            <p style="text-align:center;">
+                                <span>Customer Address:</span>
+                                <br>
+
+                                </br>
+                                <span>Customer Contact:</span>
+                                <br>
+
+                                </br>
+                                <span>(Qatar Riyal):</span>
+
+
+                            </p>
+
+                            <tr>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong>Account Name</strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong>Fund Name</strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong>Project/Site</strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong>Description</strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong>LPO Value</strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong>Amount QAR</strong>
+
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong></strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong></strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong></strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong></strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong></strong>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong>Total in QAR:</strong>
+
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-auto mw-100 mb-2"
+                                         color="#17a2b8">
+                                        <strong></strong>
+
+
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+
+                                </td>
+                            </tr>
+                            <table class="table table-sm" style="page-break-inside: avoid;">
+
+                                <table class="table table-sm" style="page-break-inside: avoid;">
+
+
+                                </table>
+                            </table>
+                            </table>
+
+
+                                <table class="table table-sm" style="page-break-inside: avoid;">
+                                    <tr>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong>Requested By</strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong>Procurement Manager</strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong>Material Recieved By</strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong>Request For Payment</strong>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="col-auto mw-100 mb-2"
+                                                 color="#17a2b8">
+                                                <strong></strong>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <p style="text-align:center;">
+                                            <strong>Abdullah Albaker</strong><br>
+
+                                        </br>
+                                            <strong>Managing Director</strong>
+                                        </p>
+                                    </tr>
+
+
+                                </table>
+
+
+
+
+                            </table>
+
+                            <p style="text-align:left;">
+                                <strong>Mandatory Instructions:</strong>
+                            </p>
+                            </div>
+                        </t>
+
+                    </t>
+                </t>
+            </template>
+        </data>
+</odoo>
+
+
+

@@ -1,0 +1,11 @@
+<odoo>
+
+    <template id="inherit_report_template" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//div[@id='informations']" position="inside">
+        <strong>Car Repair Here:</strong>
+            <p class="m-0" t-field="doc.car_one"/>
+        </xpath>
+
+
+    </template>
+</odoo>

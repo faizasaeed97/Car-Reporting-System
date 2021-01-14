@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="action_report_staff_attendance"
+                model="car.modules"
+                string="Staff Attendance"
+                report_type="qweb-html"
+                name="car_customization.staff_attendance"
+                file="car_customization.staff_attendance"
+
+        />
+
+        <template id="staff_attendance">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Design Creative W.L.L</strong>
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <h1>Salary Sheet</h1>
+                        </div>
+
+                        <div class="page">
+
+                            <table class="table table-sm" style="page-break-inside: avoid;">
+                                <tr>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>SN</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>ID</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Name</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Attended</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Missing</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Absent</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Leave</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Sick Lv</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Day off</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Conflict</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Emerg</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Death</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Unpaid</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Mater</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Busi</strong>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-auto mw-100 mb-2"
+                                             color="#17a2b8">
+                                            <strong>Total</strong>
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+
+                            </table>
+
+
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

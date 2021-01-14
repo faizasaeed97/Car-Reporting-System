@@ -1,0 +1,13 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_car_admin,access_car_admin,model_car_modules,base.group_system,1,1,1,1
+access_color_admin,access_color_admin,model_car_color,base.group_system,1,1,1,1
+access_enginespecs_admin,access_enginespecs_admin,model_engine_specs,base.group_system,1,1,1,1
+access_airbags_admin,access_airbags_admin,model_airbags_details,base.group_system,1,1,1,1
+access_repair_admin,access_repair_admin,model_repair_modules,base.group_system,1,1,1,1
+access_service_admin,access_service_admin,model_service_type,base.group_system,1,1,1,1
+access_prevservices_admin,access_prevsevices_admin,model_prev_services,base.group_system,1,1,1,1
+access_contact_admin,access_contact_admin,model_contact_details,base.group_system,1,1,1,1
+access_wizard_admin,access_wizard_admin,model_carrepair_modules,base.group_system,1,1,1,1
+access_reporders_admin,access_reporders_admin,model_reporders_modules,base.group_system,1,1,1,1
+
+

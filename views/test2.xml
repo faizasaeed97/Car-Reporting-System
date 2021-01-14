@@ -1,0 +1,269 @@
+<odoo>
+    <data>
+
+        <template id="report_car">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+
+                        <div class="page">
+                            <style>
+                                  table, th, td {
+                                  border: 1px solid black; }
+                            </style>
+                            <table style="height: 100%;" width="100%">
+<tbody>
+<tr style="height: 23px;">
+<th style="width: 100%; text-align: center; height: 23px;">Purchase Order</th>
+</tr>
+<!--<tr style="height: 23px;">-->
+<!--<td style="height: 23px;">&nbsp;</td>-->
+<!--</tr>-->
+
+<table style="width: 100%;">
+<tbody>
+<tr style="width: 100%;">
+<td style="width: 500px;">Supplier:</td>
+
+
+ <p style="width:50%;  text-align:left;">
+<td>
+    <span>Date:</span>
+                                            <br></br>
+                                            <span>Supplier Ref:</span><br>
+
+                                        </br>
+                                            <span>PO number:       ABT/PO/20/0000</span><br></br>
+                                            <span>Project:</span>
+                                        <br></br>
+
+
+</td>
+     </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tr>
+</tbody>
+</table>
+    <table style="height: 22px; width=100%;">
+            <tbody>
+                <tr style="width: 100%;">
+                   <td style="width: 250px">
+                       <strong>Shipping Method</strong>
+
+                   </td>
+                    <td style="width: 250px">
+                       <strong>Shipping Terms</strong>
+
+                   </td>
+                    <td style="width: 250px">
+                       <strong>Required Delivery Date</strong>
+
+                   </td>
+                    <td style="width: 250px">
+                       <strong>Payment Terms</strong>
+
+                   </td>
+
+                </tr>
+                <tr style="width: 100%;">
+                   <td style="width: 250px">
+                       <span>   </span>
+
+
+                   </td>
+                    <td style="width: 250px">
+                        <span>   </span>
+
+                   </td>
+                    <td style="width: 250px">
+
+                      <span>   </span>
+                   </td>
+                    <td style="width: 250px">
+                        <span>   </span>
+                   </td>
+
+                </tr>
+
+            </tbody>
+    </table>
+    <table style="height: 22px; width=100%;">
+            <tbody>
+                <tr style="width: 100%;">
+                    <td style="width: 115px">
+                       <strong>SI. No.</strong>
+
+                   </td>
+                    <td style="width: 115px">
+                       <strong>PART No.</strong>
+
+                   </td>
+                    <td style="width: 115px">
+                       <strong>Description Of Materials</strong>
+
+                   </td>
+                    <td style="width: 115px">
+                       <strong>QTY</strong>
+
+                   </td>
+                    <td style="width: 115px">
+                       <strong>UOM</strong>
+
+                   </td>
+                    <td style="width: 115px">
+                       <strong>Rate/Unit</strong>
+
+                   </td>
+                    <td style="width: 115px">
+                       <strong>Amount(QAR)</strong>
+
+                   </td>
+
+                </tr>
+
+                  <tr>
+                    <td style="width: 115px">
+                       <span>     </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>   </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>   </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+
+                </tr>
+                   <tr>
+                    <td style="width: 115px">
+                       <span>     </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>   </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>   </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+
+                </tr>
+                   <tr>
+                    <td style="width: 115px">
+                       <span>     </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>   </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>   </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+                    <td style="width: 115px">
+                       <span>    </span>
+
+                   </td>
+
+                </tr>
+
+                <tr style="width: 100%;">
+                    <td style="width: 100%;">
+                        <span>
+                            Total QAR:
+                        </span>
+                    </td>
+                    <td style="width: 100%;">
+                        <strong>
+
+                        </strong>
+                    </td>
+                </tr>
+
+            </tbody>
+    </table>
+
+
+
+
+</tbody>
+                            </table>
+                        </div>
+
+
+
+
+
+
+
+
+                        </t>
+
+
+
+                    </t>
+                </t>
+            </template>
+        </data>
+    </odoo>
+
